@@ -12,7 +12,7 @@ const Chart = ({ marks }) => {
     if (payload && payload.length) {
       const { assignment_marks } = payload[0].payload;
       return (
-        <div style={{ backgroundColor: '#fff', padding: '10px', border: '1px solid #ccc' }}>
+        <div style={{ backgroundColor: '#ffff', padding: '10px', border: '1px solid #ccc' }}>
           <p style={{ margin: 0 }}>{assignment_marks}</p>
         </div>
       );
@@ -31,7 +31,7 @@ const Chart = ({ marks }) => {
           cy="50%"
           outerRadius={120}
           label={renderLabel}
-          fill='#4338CA'
+          fill='#251136'
         />
         <Tooltip content={renderTooltip} />
       </PieChart>
