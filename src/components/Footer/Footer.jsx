@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
           <div className='col-span-1 flex flex-col p-3 md:p-5'>
             <p className='mb-1 font-bold'>Contact</p>
-            <p className='my-1 text-xs font-thin'>524 Broadway , NYC</p>
+            <p className='my-1 text-xs font-thin'>46/A Dolphine Goli, Kalabagan, Dhaka</p>
             <p className='my-1 text-xs font-thin'>+880 173 650 0817</p>
           </div>
         </div>
